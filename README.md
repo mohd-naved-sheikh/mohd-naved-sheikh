@@ -1,122 +1,330 @@
-# 👋 Hi, I'm Mohd Naved
 
-### 🚀 Software Development Engineer (SDE) | Java • Spring Boot • Backend • Distributed Systems
+# Mohd Naved
 
-<p align="left">
-  <a href="https://mohdnaved.vercel.app">
-    <img src="https://img.shields.io/badge/Portfolio-mohdnaved.vercel.app-111111?style=for-the-badge&logo=vercel&logoColor=white" />
-  </a>
-  <a href="https://www.linkedin.com/in/mohd-naved-sheikh">
-    <img src="https://img.shields.io/badge/LinkedIn-Mohd%20Naved-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:navedsheikh7983@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
+### Software Development Engineer (SDE) · Java · Spring Boot · Backend Development
+
+<p align="center">
+  <a href="https://mohdnaved.vercel.app"><img src="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
+  <a href="https://www.linkedin.com/in/mohd-naved-sheikh"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:navedsheikh7983@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+</p>
+
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=mohd-naved-sheikh&style=flat-square&label=Profile%20Views" alt="Profile Views"/>
 </p>
 
 ---
 
-## 🧑‍💻 About Me
+## About Me
 
-I'm **Mohd Naved**, a Software Development Engineer focused on building
-secure, scalable, and production-oriented backend systems using **Java and
-Spring Boot**.
+I'm **Mohd Naved**, a **Software Development Engineer (SDE)** focused on
+**Java, Spring Boot and backend development**.
 
-My primary interests include:
+I build secure, maintainable and production-oriented applications with
+**Spring Boot, Spring Security, REST APIs, Hibernate/JPA, MySQL, Redis and
+cloud integrations**.
 
-- Backend Engineering
-- Distributed Systems
-- REST API Design
-- Authentication & Authorization
-- Database Engineering
-- Caching & Performance Optimization
-- Cloud Integration
-- AI-powered Applications
+My work also includes **AI-powered applications**, authentication,
+authorization, database-driven systems and third-party API integrations.
 
-I enjoy taking a system from **architecture → implementation → security →
-database → deployment** and turning complex requirements into maintainable
-software.
-
-🎓 **B.Tech in Computer Science & Engineering**  
-📍 **Bareilly, Uttar Pradesh, India**
+- 🎓 B.Tech in Computer Science & Engineering
+- 📍 Bareilly, Uttar Pradesh, India
+- ☕ Java & Spring Boot
+- 🔐 Backend Security & Authentication
+- 🗄️ Databases, JPA & Hibernate
+- ⚡ REST APIs & Redis
+- 🤖 AI-powered applications
+- ☁️ AWS integrations
 
 ---
 
-## ⚡ What I Work With
+## Engineering Focus
 
 | Area | Technologies |
-|------|--------------|
-| **Language** | Java |
-| **Backend** | Spring Boot, Spring MVC, Spring Security |
-| **Data Access** | Spring Data JPA, Hibernate |
-| **APIs** | REST APIs |
-| **Security** | OAuth2, JWT, RBAC, BCrypt |
-| **Databases** | MySQL, MongoDB |
-| **Caching** | Redis |
-| **Cloud** | AWS S3 |
-| **Frontend** | HTML, CSS, JavaScript, Thymeleaf, Bootstrap |
-| **AI** | Google Gemini AI |
-| **Payments** | Razorpay |
-| **Build Tools** | Maven, Gradle |
-| **Development** | Git, GitHub, Postman |
-| **Architecture** | MVC, Layered Architecture, Clean Code |
-| **Concepts** | OOP, DSA, DBMS, Software Design |
+|---|---|
+| Backend | Java, Spring Boot, Spring MVC |
+| Security | Spring Security, OAuth2, JWT, RBAC, BCrypt |
+| Data | MySQL, MongoDB, Hibernate, JPA |
+| Performance | Redis, HikariCP, Query Optimization |
+| APIs | REST APIs |
+| Cloud | AWS S3 |
+| AI | Google Gemini, AI Assistants |
+| Architecture | MVC, Layered Architecture |
 
 ---
 
-# 🏆 Featured Projects
+# Featured Projects
 
-## 🛒 AuraMart — AI-Powered Full-Stack E-Commerce Platform
+## 🛒 AuraMart
 
-> A production-oriented e-commerce platform built with Java and Spring Boot,
-> featuring authentication, authorization, AI assistance, caching, cloud
-> storage and online payments.
+### AI-Powered Full-Stack E-Commerce Platform
 
-### 🔥 Core Features
+AuraMart is a full-stack e-commerce application built with **Java and Spring
+Boot**, combining authentication, authorization, product management,
+caching, cloud storage, online payments and an AI shopping assistant.
 
-- 🔐 Spring Security authentication & authorization
-- 👥 Role-Based Access Control (RBAC)
-- 🔑 Google OAuth2 authentication
-- 🤖 **Aura AI** shopping assistant powered by Google Gemini
-- 🛍️ Product, cart and order management
-- 💳 Razorpay payment integration
-- ☁️ AWS S3 cloud image storage
-- ⚡ Redis caching
-- 📧 Spring Mail integration
-- 🗄️ MySQL + Hibernate + Spring Data JPA
-- 🌐 RESTful API architecture
-- 🏗️ Layered MVC architecture
-- 🚀 HikariCP connection pooling
+### Core Features
 
-### 🧩 Architecture
+- Spring Security authentication & authorization
+- Role-Based Access Control (RBAC)
+- Google OAuth2
+- RESTful APIs
+- Product, cart and order management
+- Redis caching
+- AWS S3 storage
+- Razorpay payment integration
+- Spring Mail
+- MySQL + Hibernate + Spring Data JPA
+- HikariCP connection pooling
+- Thymeleaf + Bootstrap
+- Aura AI powered by Google Gemini
+
+### Architecture
 
 ```text
-                    ┌─────────────────────┐
-                    │      Frontend       │
-                    │ Thymeleaf + HTML/CSS│
-                    └──────────┬──────────┘
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │   Spring Security  │
-                    │ OAuth2 • RBAC • JWT │
-                    └──────────┬──────────┘
-                               │
-                               ▼
-                    ┌─────────────────────┐
-                    │    Spring Boot      │
-                    │ Controllers / APIs   │
-                    └──────────┬──────────┘
-                               │
-                 ┌─────────────┼─────────────┐
-                 ▼             ▼             ▼
-            ┌────────┐    ┌────────┐   ┌──────────┐
-            │ MySQL  │    │ Redis  │   │ AWS S3   │
-            │Database│    │ Cache  │   │ Storage  │
-            └────────┘    └────────┘   └──────────┘
-                               │
-                               ▼
-                       ┌──────────────┐
-                       │   Aura AI    │
-                       │ Gemini API   │
-                       └──────────────┘
+                    CLIENT
+                       │
+                       ▼
+              ┌─────────────────┐
+              │ Thymeleaf / Web │
+              │ HTML / CSS / JS │
+              └────────┬────────┘
+                       │
+                       ▼
+              ┌─────────────────┐
+              │ Spring Security │
+              │ OAuth2 / RBAC   │
+              └────────┬────────┘
+                       │
+                       ▼
+              ┌─────────────────┐
+              │   Spring Boot   │
+              │ Controllers     │
+              │ Services        │
+              │ Repositories    │
+              └────────┬────────┘
+                       │
+             ┌─────────┼─────────┐
+             ▼         ▼         ▼
+           MySQL     Redis     AWS S3
+          Database   Cache     Storage
+                       │
+                       ▼
+                  Aura AI
+               Google Gemini
+````
+
+<p>
+  <a href="https://bit.ly/4rMkxbk"><img src="https://img.shields.io/badge/Live%20Project-111111?style=for-the-badge&logo=vercel&logoColor=white" alt="Live Project"/></a>
+  <a href="https://github.com/mohd-naved-sheikh/AuraMart-Full-Stack-Springboot-Project"><img src="https://img.shields.io/badge/Source%20Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="Source Code"/></a>
+</p>
+
+---
+
+## 🤝 MentorHub
+
+### Mentor–Student Collaboration Platform
+
+A full-stack platform focused on secure authentication, role-based access and
+real-time mentor–student communication.
+
+**Stack:** Java · Spring Boot · Spring Security · JWT · MySQL · REST APIs ·
+WebSocket · STOMP
+
+---
+
+# 💼 Experience
+
+## Java Developer Intern — Labmentix
+
+Worked on backend development using **Java, Spring Boot, Hibernate and MySQL**.
+
+* Developed backend functionality using Java and Spring Boot
+* Implemented authentication and authorization
+* Worked with Redis caching
+* Optimized Hibernate queries
+* Refactored backend modules
+* Debugged backend APIs
+* Followed layered architecture and clean coding practices
+
+**6-month Java Development Internship**
+
+---
+
+# 🛠️ Technology Stack
+
+## Java & Backend
+
+<p>
+<a href="https://www.java.com/"><img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" alt="Java"/></a>
+<a href="https://spring.io/projects/spring-boot"><img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot"/></a>
+<a href="https://spring.io/projects/spring-security"><img src="https://img.shields.io/badge/Spring%20Security-6DB33F?style=for-the-badge&logo=springsecurity&logoColor=white" alt="Spring Security"/></a>
+<a href="https://spring.io/projects/spring-framework"><img src="https://img.shields.io/badge/Spring%20MVC-6DB33F?style=for-the-badge&logo=spring&logoColor=white" alt="Spring MVC"/></a>
+<a href="https://hibernate.org/"><img src="https://img.shields.io/badge/Hibernate-59666C?style=for-the-badge&logo=hibernate&logoColor=white" alt="Hibernate"/></a>
+<a href="https://maven.apache.org/"><img src="https://img.shields.io/badge/Maven-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white" alt="Maven"/></a>
+</p>
+
+## Databases & Caching
+
+<p>
+<a href="https://www.mysql.com/"><img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/></a>
+<a href="https://www.mongodb.com/"><img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/></a>
+<a href="https://redis.io/"><img src="https://img.shields.io/badge/Redis-DD0031?style=for-the-badge&logo=redis&logoColor=white" alt="Redis"/></a>
+</p>
+
+## APIs & Security
+
+<p>
+<a href="https://oauth.net/2/"><img src="https://img.shields.io/badge/OAuth2-EB5424?style=for-the-badge" alt="OAuth2"/></a>
+<a href="https://jwt.io/"><img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" alt="JWT"/></a>
+<a href="https://www.rfc-editor.org/rfc/rfc9110"><img src="https://img.shields.io/badge/REST%20API-005571?style=for-the-badge" alt="REST API"/></a>
+</p>
+
+## Frontend
+
+<p>
+<a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/></a>
+<a href="https://www.thymeleaf.org/"><img src="https://img.shields.io/badge/Thymeleaf-005C0F?style=for-the-badge&logo=thymeleaf&logoColor=white" alt="Thymeleaf"/></a>
+<a href="https://getbootstrap.com/"><img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap"/></a>
+</p>
+
+## Cloud & AI
+
+<p>
+<a href="https://aws.amazon.com/s3/"><img src="https://img.shields.io/badge/AWS%20S3-FF9900?style=for-the-badge&logo=amazons3&logoColor=white" alt="AWS S3"/></a>
+<a href="https://ai.google.dev/"><img src="https://img.shields.io/badge/Google%20Gemini-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Google Gemini"/></a>
+<a href="https://razorpay.com/docs/"><img src="https://img.shields.io/badge/Razorpay-3395FF?style=for-the-badge" alt="Razorpay"/></a>
+</p>
+
+## Developer Tools
+
+<p>
+<a href="https://git-scm.com/"><img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/></a>
+<a href="https://github.com/"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+<a href="https://www.postman.com/"><img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" alt="Postman"/></a>
+</p>
+
+---
+
+# 🔐 Backend Engineering
+
+```text
+Authentication
+    ├── Spring Security
+    ├── JWT
+    └── OAuth2
+
+Authorization
+    └── Role-Based Access Control
+
+Backend Development
+    ├── REST APIs
+    ├── Layered Architecture
+    ├── MVC
+    └── Exception Handling
+
+Data & Performance
+    ├── Hibernate / JPA
+    ├── Redis
+    ├── HikariCP
+    └── Query Optimization
+```
+
+---
+
+# 🤖 AI & Backend Integration
+
+### Aura AI
+
+AuraMart includes an AI-powered shopping assistant built using
+**Google Gemini** and integrated with the Spring Boot backend.
+
+```text
+User Query
+    ↓
+Product Context
+    ↓
+Spring Boot Backend
+    ↓
+Gemini API
+    ↓
+Context-Aware Response
+```
+
+### Areas I'm Exploring
+
+* LLM Applications
+* AI Assistants
+* AI Agents
+* Product Recommendation
+* Context-Aware AI
+* AI + Backend Integration
+
+---
+
+# 📚 Computer Science
+
+```text
+OOP · DSA · DBMS · Operating Systems
+Computer Networks · Software Design
+MVC · Layered Architecture · REST
+Database Design · Caching · Performance
+```
+
+---
+
+# 🚀 Currently Learning
+
+* Advanced Java
+* Spring Boot
+* Data Structures & Algorithms
+* System Design fundamentals
+* Microservices fundamentals
+* Docker
+* AWS
+* CI/CD
+* AI Agents
+* LLM Applications
+
+---
+
+# 📊 GitHub
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=mohd-naved-sheikh&theme=github_dark" width="95%" alt="Mohd Naved GitHub Profile Summary"/>
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=mohd-naved-sheikh&theme=github_dark" height="180" alt="Mohd Naved Repository Languages"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=mohd-naved-sheikh&theme=github_dark" height="180" alt="Mohd Naved Most Used Languages"/>
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=mohd-naved-sheikh&theme=github-dark-blue&hide_border=true" alt="Mohd Naved GitHub Contribution Streak"/>
+</p>
+
+---
+
+# 💡 Engineering Philosophy
+
+> **Build it. Understand it. Secure it. Improve it.**
+
+I focus on building practical software, understanding the technologies I use,
+and continuously improving my backend engineering fundamentals.
+
+---
+
+# Connect
+
+<p align="center">
+  <a href="https://mohdnaved.vercel.app"><img src="https://img.shields.io/badge/Portfolio-111111?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
+  <a href="https://www.linkedin.com/in/mohd-naved-sheikh"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="mailto:navedsheikh7983@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
+</p>
+
+<p align="center">
+  <sub>Mohd Naved · Software Development Engineer · Java · Spring Boot · Backend Development</sub>
+</p>
+```
